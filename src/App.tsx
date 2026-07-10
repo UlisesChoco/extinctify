@@ -1,10 +1,7 @@
-import './App.css'
+import {RandomAnimal} from "./features/animal/component/RandomAnimal.tsx";
 
 function App() {
-  return (
-    <>
-    </>
-  )
+  return RandomAnimal();
 }
 
 export default App
